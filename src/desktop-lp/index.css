@@ -1,0 +1,14 @@
+.DesktopLp {
+  background-image: url(./assets/lp_background.png);
+  background-color: #61dafb;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.LearnMore {
+  font-size: small;
+  text-decoration: underline;
+}

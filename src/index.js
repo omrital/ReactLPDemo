@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DesktopLP from './desktop-lp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    <DesktopLP />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
