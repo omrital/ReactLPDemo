@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import '../tailwind.css';
+import '../../tailwind.css';
 import 'react-phone-number-input/style.css'
 import LpHeader from './components/LpHeader';
 import InviteOptions from './components/InviteOptions';

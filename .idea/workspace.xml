@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c7ac70-5ab1-45e0-b54c-154006bf957c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/desktop-lp/components/DownloadButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desktop-lp/components/InviteOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desktop-lp/components/LpHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desktop-lp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/desktop-lp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/assets/barcode.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/assets/barcode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/assets/download_app.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/assets/download_app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/assets/fit_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/assets/fit_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/assets/flag_israel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/assets/flag_israel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/assets/get_app.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/assets/get_app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/assets/lp_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/assets/lp_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/components/DownloadButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/components/DownloadButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/components/InviteOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/components/InviteOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/components/LpHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/components/LpHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desktop-lp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/desktop-lp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/desktop-lp/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/components/LpHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -32,10 +48,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/desktop-lp/components/LpHeader.js">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tailwind.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="32" column="157" selection-start-line="32" selection-start-column="157" selection-end-line="32" selection-end-column="157" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/components/DownloadButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,34 +78,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/desktop-lp/components/DownloadButtons.js">
+        <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/components/InviteOptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="596">
+              <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/desktop-lp/components/InviteOptions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/desktop-lp/index.css">
+        <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +125,7 @@
       <find>row</find>
       <find>bg-yellow</find>
       <find>send</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -104,7 +139,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/desktop-lp/DesktopLP.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/input.css" />
         <option value="$PROJECT_DIR$/src/postcss.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -114,6 +148,11 @@
         <option value="$PROJECT_DIR$/src/desktop-lp/components/DownloadButtons.js" />
         <option value="$PROJECT_DIR$/src/desktop-lp/components/LpHeader.js" />
         <option value="$PROJECT_DIR$/src/desktop-lp/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/features/desktop-lp/index.js" />
+        <option value="$PROJECT_DIR$/src/features/desktop-lp/components/DownloadButtons.js" />
+        <option value="$PROJECT_DIR$/src/features/desktop-lp/components/InviteOptions.js" />
+        <option value="$PROJECT_DIR$/src/features/desktop-lp/components/LpHeader.js" />
       </list>
     </option>
   </component>
@@ -145,12 +184,20 @@
               <item name="mobile-apps-landing-page" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile-apps-landing-page" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile-apps-landing-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile-apps-landing-page" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="desktop-lp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobile-apps-landing-page" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile-apps-landing-page" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="desktop-lp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -175,6 +222,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/features" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -204,12 +252,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646144294466</updated>
-      <workItem from="1646144295811" duration="17828000" />
+      <workItem from="1646144295811" duration="18096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17828000" />
+    <option name="totallyTimeSpent" value="18096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="23" width="955" height="976" extended-state="0" />
@@ -259,7 +307,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/assets/lp_background.png">
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/assets/lp_background.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
@@ -295,13 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -309,17 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/assets/fit_logo.png">
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/assets/fit_logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tailwind.config.js">
@@ -329,50 +360,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tailwind.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/index.css">
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/components/InviteOptions.js">
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/components/DownloadButtons.js">
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/components/DownloadButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/components/LpHeader.js">
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/components/InviteOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/desktop-lp/components/LpHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop-lp/index.js">
+    <entry file="file://$PROJECT_DIR$/src/tailwind.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="286">
+          <caret line="32" column="157" selection-start-line="32" selection-start-column="157" selection-end-line="32" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

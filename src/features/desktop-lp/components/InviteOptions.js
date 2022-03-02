@@ -1,6 +1,6 @@
+import '../../../index.css';
+import '../../../tailwind.css';
 import React, {useState} from 'react';
-import '../../index.css';
-import '../../tailwind.css';
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 
@@ -54,7 +54,7 @@ function BarcodeJoin() {
   return (
     <div className="w-1/3 h-full flex flex-col items-center">
       <div className="text-sm mb-2 font-bold">Or Scan the QR Code</div>
-      <div className="w-20 h-20 ml-2 mr-2 bg-cover bg-[url('./desktop-lp/assets/barcode.png')]"/>
+      <div className="w-20 h-20 ml-2 mr-2 bg-cover bg-[url('./features/desktop-lp/assets/barcode.png')]"/>
     </div>
   )
 }

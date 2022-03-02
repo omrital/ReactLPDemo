@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../index.css';
-import '../../tailwind.css';
+import '../../../index.css';
+import '../../../tailwind.css';
 import 'react-phone-number-input/style.css'
 
 function LpHeader() {
   return (
     <div className="flex flex-col mb-10">
-      <div className="w-28 h-6 mb-20 bg-cover bg-center bg-[url('./desktop-lp/assets/fit_logo.png')]"/>
+      <div className="w-28 h-6 mb-20 bg-cover bg-center bg-[url('./features/desktop-lp/assets/fit_logo.png')]"/>
       <div className="mb-8">
         <MultilinesText className="text-4xl font-bold" text={"Download the Spaces\nby Wix App"}/>
       </div>
