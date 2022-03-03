@@ -8,12 +8,12 @@ import DownloadButtons from './components/DownloadButtons';
 
 function DesktopLP() {
   return (
-    <div className="DesktopLp">
-      <div className="flex flex-col w-6/12 p-10">
+    <div className={"DesktopLp"}>
+      <div className={"flex flex-col w-6/12 p-10"}>
         <LpHeader/>
         <InviteOptions/>
         <DownloadButtons/>
-        <div className="LearnMore">Learn more about Spaces by Wix</div>
+        <div className={"LearnMore"}>Learn more about Spaces by Wix</div>
       </div>
     </div>
   );
