@@ -17,12 +17,19 @@ function LpHeader() {
 
 function MultilinesText(props: {text :string, className?: string}){
   const {text, className} = props;
-  const lines =  text.split('\n').map((newLineString: string) => <p className={className}>{newLineString}</p>);
+  const lines = text.split('\n')
+    .map((newLineString: string) => {
+      return (
+        <p className={className} key={newLineString.trim()}>
+          {newLineString}
+        </p>
+      );
+    });
   return (
     <div>
       {lines}
     </div>
-  )
+  );
 }
 
 export default LpHeader;
