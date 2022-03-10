@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './index.css';
 import '../../tailwind.css';
 import 'react-phone-number-input/style.css'
@@ -8,13 +8,17 @@ import DownloadButtons from './components/DownloadButtons';
 import {inviteDetails} from "../../services/inviteDetails";
 
 function DesktopLP() {
-  inviteDetails.get({
-    inviteCode: "YVDKFT"
-  }).then((data) => {
-    console.log('Get invite Details', 'success', alert(JSON.stringify(data));
-  }).catch((error) => {
-    console.log('Get invite Details', 'error', error);
+
+  useEffect(() => {
+    inviteDetails.get({inviteCode: "YVDKFT"})
+      .then((data) => {
+        alert(JSON.stringify(data));
+        console.log('Get invite Details', 'success', JSON.stringify(data));
+      }).catch((error) => {
+      console.log('Get invite Details', 'error', JSON.stringify(error));
+    });
   });
+
   return (
     <div className={"DesktopLp"}>
       <div className={"flex flex-col w-6/12 p-10"}>

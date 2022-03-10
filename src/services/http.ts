@@ -1,4 +1,6 @@
-import _ from 'lodash';
+// import _ from 'lodash';
+// import fetch from "node-fetch";
+import axios from 'axios';
 
 export enum HttpMethods {
   POST = 'POST',
@@ -39,23 +41,35 @@ async function performFetch(fetchObject: FetchInterface): Promise<object> {
   const headers = {
     Accept: 'application/json',
     'Content-Type': 'application/json',
+    "X-Requested-With": "XMLHttpRequest"
   };
 
-  const response = await fetch(fetchObject.url, {
+  const options = {
     method: fetchObject.method,
-    headers: _.merge(headers, fetchObject.extraHeaders),
-    body: JSON.stringify(fetchObject.body),
-  });
+    url: fetchObject.url,
+    data: fetchObject.body,
+    headers
+  };
 
-  if (fetchObject.avoidJsonParse) {
-    return response;
-  }
+  // send the request
+  return axios(options);
 
-  if (!response.ok) {
-    throw new HttpError(`failed for ${fetchObject.url}, status ${response.status}`, response.status);
-  }
+  // const response = await fetch(fetchObject.url, {
+  //   method: fetchObject.method,
+  //   headers: _.merge(headers, fetchObject.extraHeaders),
+  //   body: JSON.stringify(fetchObject.body),
+  // });
 
-  return await response.json();
+  // if (fetchObject.avoidJsonParse) {
+  //   return response;
+  // }
+
+  // if (response.status != 200) {
+  //   throw new HttpError(`failed for ${fetchObject.url}, status ${response.status}`, response.status);
+  // }
+
+  // return await response.json();
+  // return response;
 }
 
 export class HttpError extends Error {
@@ -65,6 +79,7 @@ export class HttpError extends Error {
     super(message);
     this.name = this.constructor.name;
     this.status = status;
+    this.message = 'message';
   }
 }
 

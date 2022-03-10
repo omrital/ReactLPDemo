@@ -1,34 +1,17 @@
-import {GetInviteParams, InviteDetails} from "../types";
-import {CONFIG} from "../config";
+import {GetInviteParams} from "../types";
 import {http} from "./http";
+import {CONFIG} from "../config";
 
-export async function get({businessId, inviteCode, inviteId}: GetInviteParams): Promise<InviteDetails | undefined> {
-  if (inviteId) {
-    return getInviteDetailsById(inviteId);
-  } else if (inviteCode) {
-    return getInviteDetailsByCode(inviteCode);
-  } else if (businessId) {
-    return getInviteByBusinessId(businessId);
-  }
-  return undefined;
-}
+export async function get({businessId, inviteCode, inviteId}: GetInviteParams) {
 
-function getInviteDetailsById(inviteId: string): Promise<InviteDetails> {
-  const param = `link_id=${inviteId}`;
-  const url = `${CONFIG.api.getInviteDetails}?${param}`;
-  return http.get(url);
-}
+  // const param = `code=${inviteCode}`;
+  // const url = `${CONFIG.api.getInviteDetails}?${param}`;
+  // return http.get(url);
 
-function getInviteDetailsByCode(inviteCode: string): Promise<InviteDetails> {
-  const param = `code=${inviteCode}`;
-  const url = `${CONFIG.api.getInviteDetails}?${param}`;
-  return http.get(url);
-}
 
-function getInviteByBusinessId(businessId: string): Promise<InviteDetails> {
-  const url = CONFIG.api.getPlacesJoinDetails;
-  const body = {businessIds: [businessId]};
-  return http.post(url, {}, body);
+
+  return http.get(`http://localhost:8080/inviteDetails/${inviteCode}`);
+  // return http.get(`https://ea00-84-111-43-175.ngrok.io/inviteDetails/${inviteCode}`);
 }
 
 export const inviteDetails = {
