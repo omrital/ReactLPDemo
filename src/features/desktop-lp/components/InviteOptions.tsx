@@ -3,6 +3,7 @@ import '../../../tailwind.css';
 import React, {useState} from 'react';
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
+import QRCode from 'react-qr-code';
 
 function InviteOptions() {
   return (
@@ -54,8 +55,7 @@ function SendButton() {
 function BarcodeJoin() {
   return (
     <div className={"w-1/3 h-full flex flex-col items-center"}>
-      <div className={"text-sm mb-2 font-bold"}>Or Scan the QR Code</div>
-      <div className={"w-20 h-20 ml-2 mr-2 bg-cover bg-[url('./features/desktop-lp/assets/barcode.png')]"}/>
+      <QRCode value="http://www.wix.com/omri.tal13" size={91}/>
     </div>
   )
 }

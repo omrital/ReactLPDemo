@@ -508,10 +508,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 33.333333%;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
 .w-28 {
   width: 7rem;
 }
@@ -552,10 +548,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\'\.\/features\/desktop-lp\/assets\/get_app\.png\'\)\] {
   background-image: url('./features/desktop-lp/assets/get_app.png');
-}
-
-.bg-\[url\(\'\.\/features\/desktop-lp\/assets\/barcode\.png\'\)\] {
-  background-image: url('./features/desktop-lp/assets/barcode.png');
 }
 
 .bg-\[url\(\'\.\/features\/desktop-lp\/assets\/fit_logo\.png\'\)\] {
